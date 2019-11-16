@@ -1,7 +1,9 @@
 # require modules here
 require 'yaml'
+
 def load_library(path)
-  new_hash={get_meaning=>{}, get_emoticon={}}
+  
+  new_hash={get_meaning=>{}, get_emoticon=>{}}
   
   #YAML.load_file(path)
   # code goes here
