@@ -3,10 +3,10 @@ require 'yaml'
 
 def load_library(path)
   
-  new_hash={"get_meaning"=>{}, "get_emoticon"=>{}}
+  emoticons={"get_meaning"=>{}, "get_emoticon"=>{}}
   
   YAML.load_file(path).each do |meaning, symbol| 
- get
+ emoticons = {"get_meaning"
 end
 
 
