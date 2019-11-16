@@ -12,7 +12,6 @@ def load_library(path)
   emoticons
 end
  
-end
 
 
 
