@@ -5,7 +5,7 @@ def load_library(path)
   
   new_hash={"get_meaning"=>{}, "get_emoticon"=>{}}
   
-  YAML.load_file(path).each do |
+  YAML.load_file(path).each do |meaning,
   # code goes here
 end
 
